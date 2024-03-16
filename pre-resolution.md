@@ -25,4 +25,4 @@ primeiro criar as 3 classes
 **Lembrando que a pilha entra e sai apenas por 1 lado, sendo assim, é necessario a pilha vazia pra armazenar temporariamente o numero retirado de uma pilha preenchida. O primeiro vetor esta na posição(indice) ZERO 0, ou seja, para acessarmos o topo precisamos dizer que ele é -1 da lista pois depois de incrementar inicia-se o vetor corretamente, o -1 indica a pilha vazia.  
 -Assim que iniciar ja devem ser preenchidas as pilhas. -> RANDOM JAVA OK!
 -Verificar se cada elemento da pilha 1 é menor que na pilha 2 que devem ter os numeros maiores.
--
+-Verificar se o programa encerrou analisando a pilha 1 e 2, pode ser comparando elemento por elemento

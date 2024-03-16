@@ -76,4 +76,21 @@ public abstract class StackDefault {
 
         return retorno;
     }
+
+    public int[] getPilha() {
+        return this.pilha;
+    }
+
+    public boolean verifyGame(Stack stack1, Stack stack2) {
+        int[] pilha1 = stack1.getPilha();
+        int[] pilha2 = stack2.getPilha();
+
+        for (int i = 0; i < Math.min(pilha1.length, pilha2.length); i++) {
+            if (pilha1[i] > pilha2[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
